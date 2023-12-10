@@ -1,0 +1,55 @@
+:root {
+  --main-br-color: #dedede;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+ width: 100%;
+}
+
+.App {
+  min-width: 400px;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.datails__list {
+  display: flex;
+}
+
+.lists__box, .details__item {
+  border: 1px solid var(--main-br-color);
+  padding: 0;
+}
+
+.list__item {
+  border-bottom: solid 1px var(--main-br-color);
+  padding: 10px;
+  cursor: pointer;
+}
+
+.details {
+  margin-left: 40px;
+  width: 40%;
+}
+
+.selected {
+  background-color: #0f7ffa;
+  color: white;
+}
+
+.item {
+  padding: 10px;
+  border-bottom: solid 1px var(--main-br-color);
+}
+
+.item_name {
+  font-weight: 600;
+}
+
+.details__item  {
+   position: absolute;
+}
